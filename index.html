@@ -307,11 +307,28 @@
           <span class="nav__logo-text">MAXWYNN</span>
         </div>
         <p class="footer__tagline">Creator-driven campaigns. Executed with precision.</p>
+        <div class="footer__legal-links">
+          <a href="privacy.html">Privacy Notice</a>
+          <span>·</span>
+          <a href="terms.html">Terms of Service</a>
+        </div>
         <p class="footer__copy">© 2025 Maxwynn. All rights reserved.</p>
       </div>
     </div>
   </footer>
 
+  <style>
+    .footer__legal-links {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-size: 0.83rem;
+      color: var(--muted);
+    }
+    .footer__legal-links span { opacity: 0.4; }
+    .footer__legal-links a { color: var(--muted); transition: color 0.2s; }
+    .footer__legal-links a:hover { color: var(--text); }
+  </style>
   <script src="script.js"></script>
 </body>
 </html>
